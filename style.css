@@ -1,13 +1,13 @@
 html {
   height: 100%;
   width: 100%;
+  background: radial-gradient(circle at top, #808080 , #303030)
 }
 body {
-  background: linear-gradient(to bottom, #3b3b3b 0%, #000000 100%);
   font-family: Verdana, sans-serif;
   color: #ffffff;
 }
-.title {
+h1 {
   text-align: center;
 }
 
