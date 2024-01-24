@@ -1,12 +1,11 @@
 html {
   height: 100%;
   width: 100%;
-  background: radial-gradient(circle at top, #808080 , #303030)
-}
-body {
+  background: radial-gradient(circle at top, #808080 , #303030);
   font-family: Verdana, sans-serif;
   color: #ffffff;
 }
+
 h1 {
   text-align: center;
 }
@@ -16,4 +15,17 @@ h1 {
   border-radius: 15px;
   max-height: 150px;
   padding: 20px;
+}
+
+dialog {
+  border-radius: 10px;
+  min-height: 200px;
+  min-width: 300px;
+  background-color: #303030;
+  color: white;
+}
+
+::backdrop {
+  background: rgb(0, 0, 0);
+  opacity: 0.5;
 }
