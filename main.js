@@ -11,3 +11,6 @@ showButton.addEventListener("click", () => {
 closeButton.addEventListener("click", () => {
   dialog.close();
 });
+
+
+console.log("What are you doing here?")
